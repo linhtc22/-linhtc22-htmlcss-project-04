@@ -6,6 +6,11 @@
   --header-bg: #10375c;
 }
 
+html,
+body {
+  scroll-behavior: smooth;
+}
+
 html {
   font-size: 62.5%;
 }
@@ -48,6 +53,7 @@ a {
   background: #2e80ce;
   color: #fff;
   border: 1px solid #2e80ce;
+  transition: 0.25s;
 }
 
 .btn:hover {
